@@ -5,11 +5,11 @@ import BaseService from './base';
  */
 export default class Test extends BaseService {
   constructor(ctx: Context) {
-    super(ctx, 'test');
+    super(ctx, 'User');
   }
 
   async getName() {
-    return this.name;
+    // return this.name;
   }
 
   async getAll() {
